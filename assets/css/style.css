@@ -1,0 +1,10 @@
+/* apply styles to header */
+
+header {
+    padding: 20px 35px;
+    background-color: #fc4c4e;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
