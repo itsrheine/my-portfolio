@@ -46,16 +46,6 @@ body {
     text-align: center;
 }
 
-.intro h2 {
-    font-size: 55px;
-    color: #fc4c4e;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}
-
 .intro p {
     line-height: 1.7;
     color: #fc4c4e;
@@ -113,6 +103,49 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+}
+
+/* style my work */
+.projects {
+    text-align: center;
+    background: #fce138;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #f26b8a;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #f26b8a;
+}
+
+.projects div {
+    margin-bottom: 80px;
+}
+
+.projects img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.projects h3 {
+    color: #f26b8a;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.projects p {
+    color: #f26b8a
+    font-size: 23px;
 }
 
 /* hero style end */
