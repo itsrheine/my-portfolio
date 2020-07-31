@@ -110,7 +110,7 @@ body {
     text-align: right;
     color: #fc4c4e;
     border-right: 5px solid #fce138;
-    padding: 15px 50px 0 0;
+    padding: 15px 48px 0 0;
 }
 
 .projects p {
@@ -118,6 +118,30 @@ body {
     color: #fc4c4e;
     font-size: 20px;
     margin: 50px 80px 0 0;
+}
+
+.column {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
+.row {
+    display: wrap;
+}
+
+/* clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* footer style */
@@ -148,3 +172,18 @@ section {
     padding: 5px;
 }
 
+/* Media Query for smaller desktop screens and smaller */
+
+@media screen and (max-width: 980px) {
+
+/* Media Query for tablets and smaller */
+
+@media screen and (max-width: 768px) {
+
+/* Media Query for mobile phones and smaller */
+
+@media screen and (max-width: 575px) {
+
+    .projects h2 {
+        margin: 50px 55px 0 35px;
+    }
