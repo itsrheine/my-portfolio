@@ -105,26 +105,46 @@ section {
     right: 140px;
 }
 
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #f26b8a;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.intro h2 {
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;   
+    border-color: #f26b8a;
+}
+
 /* style my work */
 .projects {
     text-align: center;
 }
 
 .project {
-    width: 900px;
     margin: 0 auto 30px auto;
-    background: #fce138;
     color: #f26b8a;
     overflow: auto;
 }
 
-.project img {
-    width: 35%;
-    float: left;
+.projects h2 {
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#f26b8a;
 }
 
-.project-info {
-    padding: 35px;
-    float: left;
-    width: 65%;
+.project img {
+    width: 40%;
+    height: auto;
+    float: center;
 }
+
