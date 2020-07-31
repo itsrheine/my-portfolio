@@ -49,15 +49,25 @@ body {
 }
 
 .intro {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.intro h2 {
+    font-size: 55px;
+    margin: 50px 60px 0 200px;
+    text-align: right;
+    color: #fc4c4e;
+    border-right: 5px solid #fce138;
+    padding: 15px 20px 0 0;
 }
 
 .intro p {
     line-height: 1.7;
     color: #fc4c4e;
-    width: 80%;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 50px 80px 0 0;
 }
 
 /* footer style */
@@ -111,26 +121,6 @@ section {
     right: 140px;
 }
 
-.intro {
-    text-align: center;
-}
-
-.intro p {
-    line-height: 1.7;
-    color: #f26b8a;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
-
-.intro h2 {
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    color: #f26b8a;
-    border-bottom: 3px solid;   
-    border-color: #fce138;
-}
-
 .section-title .primary-border {
     display: flex;
     justify-content: center;
@@ -157,11 +147,6 @@ section {
     background-color:  #f26b8a;
     text-align: center;
     padding: 20px 0;
-  }
-  
-  .project1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
   }
 
 .projects {
