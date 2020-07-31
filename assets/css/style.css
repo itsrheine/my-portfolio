@@ -38,6 +38,12 @@ header nav ul li a {
     font-size: 22px;
 }
 
+header nav ul li a:hover {
+    background: #fce138;
+    color: #f26b8a;
+    border-radius: 5px;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -120,31 +126,57 @@ section {
 .intro h2 {
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    color: #f26b8a;
     border-bottom: 3px solid;   
-    border-color: #f26b8a;
+    border-color: #fce138;
+}
+
+.section-title .primary-border {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 5px solid #f26b8a;
+}
+
+.primary-border p {
+    font-size: 20px;
+    margin: 50px 100px 0 0;
+    color: #1F4C85;
 }
 
 /* style my work */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #f26b8a;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color:  #f26b8a;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
 .projects {
     text-align: center;
-}
-
-.project {
-    margin: 0 auto 30px auto;
-    color: #f26b8a;
-    overflow: auto;
 }
 
 .projects h2 {
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
+    color: #f26b8a;
     border-bottom: 3px solid;
-    border-color:#f26b8a;
+    border-color:#fce138;
 }
 
 .project img {
-    width: 40%;
-    height: auto;
-    float: center;
+    height: 35%;
+    width: 35%;
 }
-
