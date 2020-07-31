@@ -136,33 +136,40 @@ section {
 }
 
 /* style my work */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: #f26b8a;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color:  #f26b8a;
-    text-align: center;
-    padding: 20px 0;
-  }
+.row {
+    display: flex;
+    margin: 50px 0 0 0;
+}
 
 .projects {
-    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    flex: 1;
+    margin: 10px;
 }
 
 .projects h2 {
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    color: #f26b8a;
-    border-bottom: 3px solid;
-    border-color:#fce138;
+    font-size: 55px;
+    margin: 20px 60px 0 35px;
+    text-align: right;
+    color: #fc4c4e;
+    border-right: 5px solid #fce138;
+    padding: 15px 20px 0 0;
 }
 
-.project img {
-    height: 35%;
-    width: 35%;
+.projects img {
+    width: 250px;
+    height: 250px;
+}
+
+.projects h3 {
+    position: relative;
+    z-index: 999;
+    font-size: 28px;
+    margin-bottom: 5px;
+    display: none;
 }
