@@ -107,7 +107,7 @@ body {
 
 .projects h2 {
     font-size: 55px;
-    margin: 50px 60px 0 35px;
+    margin: 50px 60px 0 60px;
     text-align: right;
     color: #fc4c4e;
     border-right: 5px solid #fce138;
@@ -115,15 +115,6 @@ body {
     word-wrap: break-word;
     width: 166px;
 }
-
-/* .projects h2 {
-    font-size: 55px;
-    margin: 50px 60px 0 31px;
-    text-align: right;
-    color: #fc4c4e;
-    border-right: 5px solid #fce138;
-    padding: 15px 20px 0 0;
-} */
 
 .animate {
     position: relative;
@@ -158,13 +149,18 @@ body {
 .text1 {
     position: absolute;
     bottom: 5px;
-    right: 40px;
+    right: 15px;
     color: #fce138;
     background-color: #f26b8a;
     border-radius: 20px 0 0 20px;
     border-style: 5px solid #f26b8a;
     padding: 5px;
     width: 145px;
+}
+
+.text1 a {
+    text-decoration: none;
+    color: #fce138;
 }
 
 .proj1 {
