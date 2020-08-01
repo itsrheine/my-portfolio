@@ -67,6 +67,7 @@ header nav ul li a:hover {
     background: #fce138;
     color: #f26b8a;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 body {
@@ -99,7 +100,7 @@ body {
 
 .projects {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
     padding-bottom: 45px;
 }
@@ -113,7 +114,8 @@ body {
     padding: 15px 20px 0 0;
 }
 
-.column {
+.animate {
+    position: relative;
     float: left;
     width: 250px;
     height: 250px;
@@ -125,6 +127,29 @@ body {
     height: 250px;
     padding: 5px;
     overflow: hidden;
+}
+
+.column::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #fce138;
+    position: absolute;
+    top: 50px;
+    background: linear-gradient(#fce138, #fc4c4e );
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.animate:hover .column::after {
+    opacity: 1;
+}
+
+.text1 {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    color: #fc4c4e;
 }
 
 .row {
@@ -186,6 +211,7 @@ body {
     color: #fc4c4e;
     border-radius: 5px;
     border-bottom: 5px solid #fc4c4e;
+    transition: 0.5s;
 }
 
 /* footer style */
@@ -277,6 +303,7 @@ section {
     }
 
     .column img {
+        position: relative;
         margin: 50px 20px 0 0;
         height: 200px;
         padding: 10px;

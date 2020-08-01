@@ -1,97 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />      
-    </head>
 
-    <body>
-        <!-- header -->
-        <header>
-            <h1>My Portfolio</h1>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-            <!-- navigation -->
+<body>
+    <!-- header -->
+    <header>
+        <h1>My Portfolio</h1>
+
+        <!-- navigation -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero / jumbotron -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Strawberry Cupcake</h2>
+        </div>
+    </section>
+
+    <!-- "about me" section -->
+    <section id="about-me" class="intro">
+        <h2 class="section-title primary-border">About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ex unde ad aut molestias culpa est cumque
+            voluptatibus accusantium, itaque officiis laudantium quod consectetur ut id nulla obcaecati aperiam dolores!
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatibus corporis deleniti tenetur
+            facilis. Vero nulla perferendis aperiam minima similique aut consequuntur blanditiis! Voluptatem vero
+            dignissimos vel quasi molestias hic.</p>
+    </section>
+
+    <!-- "my work" section -->
+    <section id="my-work" class="projects">
+        <h2 class="section-title secondary-border">My Work</h2>
+
+        <div class="row">
+            <div class="animate">
+                <div class="column">
+                    <img src="assets/images/site1.JPG">
+                    <h3 class="text1">Horeison</h3>
+                </div>
+            </div>
+
+            <div class="animate">
+                <div class="column">
+                    <img src="assets/images/site2.jpg">
+                    <h3 class="text1">Grapefruit</h3>
+                </div>
+            </div>
+
+            <div class="animate">
+                <div class="column">
+                    <img src="assets/images/site3.jpg">
+                    <h3 class="text1">Dragon Fruit</h3>
+                </div>
+            </div>
+
+            <div class="animate">
+                <div class="column">
+                    <img src="assets/images/site4.jpg">
+                    <h3 class="text1">Raspberry</h3>
+                </div>
+            </div>
+    </section>
+
+    <!-- "Contact Me" section -->
+    <section id="contact-me" class="contact">
+        <h2 class="section-title tertiary-border">Contact <br>Me</h2>
+        <section class="contacts">
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me">877-965-8407</a>
                     </li>
                     <li>
-                        <a href="#my-work">My Work</a>
+                        <a href="#https://www.github.com/">GitHub</a>
                     </li>
                     <li>
-                        <a href="#reach-out">Reach Out</a>
+                        <a href="https://www.twitter.com/">Twitter</a>
                     </li>
                 </ul>
             </nav>
-        </header>
+        </section>
+    </section>
 
-            <!-- hero / jumbotron -->
-            <section class="hero">
-                <div class="hero-content">
-                    <h2>Strawberry Cupcake</h2>
-                </div>
-            </section>     
+    <!-- footer -->
+    <footer>
+        <h4>&copy; 2020 Strawberry Cupcake, Inc.</h4>
+    </footer>
+</body>
 
-            <!-- "about me" section -->
-            <section id="about-me" class="intro">
-                <h2 class="section-title primary-border">About Me</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ex unde ad aut molestias culpa est cumque voluptatibus accusantium, itaque officiis laudantium quod consectetur ut id nulla obcaecati aperiam dolores! <br><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatibus corporis deleniti tenetur facilis. Vero nulla perferendis aperiam minima similique aut consequuntur blanditiis! Voluptatem vero dignissimos vel quasi molestias hic.</p>
-            </section>
-
-            <!-- "my work" section -->
-            <section id="my-work" class="projects">
-                <h2 class="section-title secondary-border">My Work</h2>
-
-                <div class="row">
-                    <div class="column proj1">
-                        <img src="assets/images/site1.JPG">
-                        <h3>Horieson</h3>
-                    </div>
-
-                    <div class="column">
-                        <img src="assets/images/site2.jpg">
-                        <h3>Horieson</h3>
-                    </div>
-
-                    <div class="column">
-                        <img src="assets/images/site3.jpg">
-                        <h3>Horieson</h3>
-                    </div>
-
-                    <div class="column">
-                        <img src="assets/images/site4.jpg">
-                        <h3>Horieson</h3>
-                    </div>
-                </div>
-            </section>
-
-            <!-- "Contact Me" section -->
-            <section id="contact-me" class="contact">
-                <h2 class="section-title tertiary-border">Contact <br>Me</h2>
-                <section class="contacts">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#about-me">877-965-8407</a>
-                            </li>
-                            <li>
-                                <a href="#https://www.github.com/">GitHub</a>
-                            </li>
-                            <li>
-                                <a href="https://www.twitter.com/">Twitter</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </section>
-            </section>            
-
-            <!-- footer -->
-            <footer>
-                <h4>&copy; 2020 Strawberry Cupcake, Inc.</h4>
-            </footer>
-    </body>
 </html>
