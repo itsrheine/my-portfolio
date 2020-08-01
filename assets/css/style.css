@@ -146,26 +146,44 @@ body {
 }
 
 .contact h2 {
-    font-size: 55px;
+    font-size: 45px;
     text-align: right;
     color: #fc4c4e;
     border-right: 5px solid #fce138;
     margin: 0 60px 35px 35px;
-    padding: 15px 20px 0 0;;
+    padding: 15px 20px 0 0;
+    font-weight: bold;
 }
 
 .contacts {
-    line-height: 6;
+    line-height: 5;
     font-size: 40px;
     color: #fc4c4e;
-    font-size: 27px;
-    margin: 0 50px 0 0;
+    font-size: 28px;
+    margin: 0 52px 0 0;
     word-spacing: 50px;
+    font-weight: bold;
 }
 
 .contacts a {
     text-decoration: none;
     color:   #fc4c4e;
+}
+
+.contacts nav {
+    float: left;
+    margin: 7px 0;
+}
+
+.contacts nav ul li {
+    display: inline;
+}
+
+.contacts nav ul li a:hover {
+    background: #fce138;
+    color: #fc4c4e;
+    border-radius: 5px;
+    border-bottom: 5px solid #fc4c4e;
 }
 
 /* footer style */
