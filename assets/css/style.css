@@ -203,18 +203,117 @@ section {
     padding: 5px;
 }
 
+/* Laptop with 1024 width - Perfect */
+
 /* Media Query for smaller desktop screens and smaller */
 
 @media screen and (max-width: 980px) {
+
+    .projects h2 {
+        padding: 20px 25px 0 0;
+    }
+
+    .contact h2 {
+        padding: 15px 20px 0 0;
+        margin: 0 60px 35px 25px;
+    }
+
+}
 
 /* Media Query for tablets and smaller */
 
 @media screen and (max-width: 768px) {
 
+    .hero-content {
+        width: 290px;
+        color: #fce138;
+        font-size: 16px;
+        bottom: 60px;
+        left: 55%;
+    }
+
+    header nav {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        margin: 10px 20px 0 0;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .intro h2 {
+        font-size: 40px;
+        margin: 50px 60px 0 35px;
+        text-align: right;
+        color: #fc4c4e;
+        border-right: 5px solid #fce138;
+        padding: 15px 20px 0 0;
+    }
+    
+    .intro p {
+        line-height: 1.7;
+        color: #fc4c4e;
+        font-size: 20px;
+        margin: 50px 80px 0 0;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+    
+    .projects h2 {
+        font-size: 40px;
+        margin: 50px 30px 0 35px;
+        text-align: right;
+        color: #fc4c4e;
+        border-right: 5px solid #fce138;
+        padding: 15px 20px 0 0;
+    }
+
+    .column img {
+        margin: 50px 20px 0 0;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .contact h2 {
+        font-size: 32px;
+        margin: 50px 30px 50px 35px;
+        padding: 15px 20px 0 0;
+    }
+
+    .contact {
+        margin: 0 60px 0 0;
+        height: 250px;
+    }  
+
+    .contacts {
+        line-height: 10;
+        font-size: 22px;
+        margin: 0 30px 0 0;
+        word-spacing: 30px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    /* clear floats */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    
+}
+
 /* Media Query for mobile phones and smaller */
 
 @media screen and (max-width: 575px) {
 
-    .projects h2 {
-        margin: 50px 55px 0 35px;
-    }
+}
