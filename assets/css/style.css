@@ -231,7 +231,6 @@ section {
     transform: translate(-50%,-50%);
     color: whitesmoke;
     font-size: 25px;
-    pointer-events: none;
     z-index: 4;
     transition: .5s ease-in-out;
     -webkit-backdrop-filter: blur(10px) saturate(1.8);
