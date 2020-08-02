@@ -181,7 +181,7 @@ section {
 
 .projects h2 {
     font-size: 55px;
-    margin: 50px 60px 0 60px;
+    margin: 50px 60px 0 65px;
     text-align: right;
     color: #fc4c4e;
     border-right: 5px solid #fce138;
@@ -340,23 +340,16 @@ section {
     
     .projects h2 {
         font-size: 40px;
-        margin: 50px 30px 0 54px;
+        margin: 50px 30px 0 58px;
         text-align: right;
         color: #fc4c4e;
         border-right: 5px solid #fce138;
         padding: 15px 20px 0 0;
     }
 
-    .column img {
-        position: relative;
-        margin: 50px 20px 0 0;
-        height: 200px;
-        padding: 10px;
-    }
-
     .contact h2 {
         font-size: 32px;
-        margin: 50px 30px 50px 35px;
+        margin: 50px 30px 30px 30px;
         padding: 15px 20px 0 0;
     }
 
@@ -372,28 +365,6 @@ section {
         word-spacing: 30px;
     }
 
-    .row {
-        flex-wrap: wrap;
-    }
-    
-    /* clear floats */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .text1 {
-        position: absolute;
-        bottom: 25px;
-        right: 25px;
-        color: #fce138;
-        background-color: #f26b8a;
-        border-radius: 10px 0 0 10px;
-        border-style: 2px solid #f26b8a;
-        padding: 2px;
-        width: 135px;
-    }
 }
 
 /* Media Query for tablets and smaller */
